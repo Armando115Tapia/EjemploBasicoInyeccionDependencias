@@ -1,0 +1,8 @@
+Este es un ejemplo de inyección de dependencias tomado del video: https://www.youtube.com/watch?v=MWtrUxvdJlw
+Inyección de dependencias se puede aplicar por:
+	* Interfaz 
+	* Constructor
+	* Métodos getters y setters 
+En este ejemplo se implementa a través de interfaz.
+A la hora de diseñar o desarrollar software, uno de los principios básicos que debemos seguir es: tratar de depender de abstracciones y no de objetos o clases concretas.
+Al depender solo en abstracciones (en este caso usando un interface), podemos sustituir las dependencias, por otros objetos que cumplan el contrato pactado por la interface.
